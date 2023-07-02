@@ -1,2 +1,1 @@
-# movie-catalog
-App de cátalogo de filmes.
+# App de cátalogo de filmes 😄
