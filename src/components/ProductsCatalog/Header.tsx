@@ -1,3 +1,4 @@
+"use client"
 // Style and images
 import { HeaderContainer } from "./styles/headerStyles"
 

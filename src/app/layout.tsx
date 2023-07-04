@@ -1,5 +1,8 @@
 import { Inter } from "next/font/google"
 
+// Redux
+import { ReduxProvider } from "@/redux/provider"
+
 // Styles and images
 import { GlobalStyle } from "./styles/globalStyles"
 
@@ -18,7 +21,11 @@ export default function RootLayout({
   return (
     <html>
       <GlobalStyle />
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <ReduxProvider>
+          { children }
+        </ReduxProvider>
+      </body>
     </html>
   )
 }

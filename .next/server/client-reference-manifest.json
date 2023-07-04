@@ -56,9 +56,9 @@
         "async": false
       }
     },
-    "(app-client)/./src/components/ProductsCatalog/index.tsx": {
+    "(app-client)/./src/components/ProductsCatalog/Header.tsx": {
       "*": {
-        "id": "(sc_client)/./src/components/ProductsCatalog/index.tsx",
+        "id": "(sc_client)/./src/components/ProductsCatalog/Header.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -67,6 +67,14 @@
     "(app-client)/./src/app/styles/globalStyles.ts": {
       "*": {
         "id": "(sc_client)/./src/app/styles/globalStyles.ts",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/redux/provider.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/redux/provider.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -235,8 +243,8 @@
       ],
       "async": false
     },
-    "/home/thiagopaz/Área de Trabalho/Programação/Projetos/product-catalog/src/components/ProductsCatalog/index.tsx": {
-      "id": "(app-client)/./src/components/ProductsCatalog/index.tsx",
+    "/home/thiagopaz/Área de Trabalho/Programação/Projetos/product-catalog/src/components/ProductsCatalog/Header.tsx": {
+      "id": "(app-client)/./src/components/ProductsCatalog/Header.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -245,6 +253,14 @@
     },
     "/home/thiagopaz/Área de Trabalho/Programação/Projetos/product-catalog/src/app/styles/globalStyles.ts": {
       "id": "(app-client)/./src/app/styles/globalStyles.ts",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/home/thiagopaz/Área de Trabalho/Programação/Projetos/product-catalog/src/redux/provider.tsx": {
+      "id": "(app-client)/./src/redux/provider.tsx",
       "name": "*",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
