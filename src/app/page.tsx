@@ -4,7 +4,6 @@ import { ProductsCatalog } from "@/components/ProductsCatalog"
 // Services
 import { getProducts } from "@/services"
 
-
 async function getData() {
   const res = await getProducts()
 

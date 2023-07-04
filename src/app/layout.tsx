@@ -23,7 +23,7 @@ export default function RootLayout({
       <GlobalStyle />
       <body className={inter.className}>
         <ReduxProvider>
-          { children }
+          {children}
         </ReduxProvider>
       </body>
     </html>
