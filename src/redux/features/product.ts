@@ -23,4 +23,6 @@ const productSlice = createSlice({
   }
 })
 
+export const { createProduct } = productSlice.actions
+
 export const productReducer = productSlice.reducer

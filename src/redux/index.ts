@@ -7,3 +7,5 @@ export const store = configureStore({
     product: productReducer
   }
 })
+
+export type RootState = ReturnType<typeof store.getState>
