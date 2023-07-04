@@ -1,7 +1,10 @@
+// Components
+import { ProductsCatalog } from "@/components/ProductsCatalog"
+
 export default function Home() {
   return (
     <main>
-      <h1>Iniciando os trabalhos</h1>
+      <ProductsCatalog />
     </main>
   )
 }
