@@ -6,11 +6,14 @@ import { CardProducts } from "./CardProducts"
 // Hooks and contexts
 import { useSelectorReduxState } from "@/hooks/useSelectorReduxState"
 
+// Styles and images
+import { ListProductsContainer } from "../styles/listProductsStyles"
+
 export function ListProducts() {
   const products = useSelectorReduxState(state => state.product.products)
 
   return (
-    <ul>
+    <ListProductsContainer>
       {
         products.map(i =>
           <CardProducts
@@ -21,6 +24,6 @@ export function ListProducts() {
           />
         )
       }
-    </ul>
+    </ListProductsContainer>
   )
 }

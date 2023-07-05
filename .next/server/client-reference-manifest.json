@@ -64,6 +64,22 @@
         "async": false
       }
     },
+    "(app-client)/./src/components/ProductsCatalog/ListProducts/CardProducts.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/ProductsCatalog/ListProducts/CardProducts.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/ProductsCatalog/ListProducts/index.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/ProductsCatalog/ListProducts/index.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/components/ProductsCatalog/index.tsx": {
       "*": {
         "id": "(sc_client)/./src/components/ProductsCatalog/index.tsx",
@@ -253,6 +269,22 @@
     },
     "/home/thiagopaz/Área de Trabalho/Programação/Projetos/product-catalog/src/components/ProductsCatalog/Header.tsx": {
       "id": "(app-client)/./src/components/ProductsCatalog/Header.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/thiagopaz/Área de Trabalho/Programação/Projetos/product-catalog/src/components/ProductsCatalog/ListProducts/CardProducts.tsx": {
+      "id": "(app-client)/./src/components/ProductsCatalog/ListProducts/CardProducts.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/thiagopaz/Área de Trabalho/Programação/Projetos/product-catalog/src/components/ProductsCatalog/ListProducts/index.tsx": {
+      "id": "(app-client)/./src/components/ProductsCatalog/ListProducts/index.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"

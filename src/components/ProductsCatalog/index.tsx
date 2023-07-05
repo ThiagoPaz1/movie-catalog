@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux"
 
 // Components
 import { Header } from "./Header"
+import { ListProducts } from "./ListProducts"
 
 // Redux
 import { createProduct } from "@/redux/features/product"
@@ -20,6 +21,9 @@ export function ProductsCatalog({ productsData }: ProductsCatalogProps) {
   }, [])
 
   return (
-    <Header />
+    <div>
+      <Header />
+      <ListProducts />
+    </div>
   )
 }
