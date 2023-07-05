@@ -1,5 +1,7 @@
 import { ProductsCatalogProps } from "./productsCatalog"
+import { CardProductsProps } from "./cardProducts"
 
-export {
-  ProductsCatalogProps
+export type {
+  ProductsCatalogProps,
+  CardProductsProps
 }

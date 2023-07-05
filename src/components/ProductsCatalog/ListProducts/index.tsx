@@ -12,7 +12,14 @@ export function ListProducts() {
   return (
     <ul>
       {
-        products.map(i => <CardProducts key={i.id} />)
+        products.map(i =>
+          <CardProducts
+            key={i.id}
+            title={i.title}
+            image={i.image}
+            price={i.price}
+          />
+        )
       }
     </ul>
   )
